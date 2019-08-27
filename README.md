@@ -76,7 +76,7 @@ create view errors as select time::date as date, count(*) as errors_per_day from
 ### Run
 
 ``` 
-$ cd /vagrant/news
+$ cd /vagrant/LogsAnalysis
 $ python news.py
 ```
 
